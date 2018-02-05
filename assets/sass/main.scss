@@ -1,5 +1,10 @@
+//基础导入
+@import 'base/reset.scss';  //重置浏览器默认样式
 //变量导入
 @import 'libs/vars.scss';
+
+//布局导入
+@import 'layout/header.scss';
 
 //组件导入
 @import 'components/button.scss';
@@ -10,9 +15,3 @@
 @import 'components/table.scss';
 
 
-$bg: #333;
-$font-color: #666;
-body {
-  background: $bg;
-  color: $font-color;
-}
