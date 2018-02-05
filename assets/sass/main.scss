@@ -1,0 +1,18 @@
+//变量导入
+@import 'libs/vars.scss';
+
+//组件导入
+@import 'components/button.scss';
+@import 'components/list.scss';
+@import 'components/box.scss';
+@import 'components/image.scss';
+@import 'components/section.scss';
+@import 'components/table.scss';
+
+
+$bg: #333;
+$font-color: #666;
+body {
+  background: $bg;
+  color: $font-color;
+}
