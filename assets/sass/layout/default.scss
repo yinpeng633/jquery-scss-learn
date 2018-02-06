@@ -1,0 +1,173 @@
+//TODO 响应式布局 断点调整相应的参数
+//基准
+body, input, select, textarea {
+    color: _color(fg);
+    font-family: _font(family);
+    font-size: 13pt;
+    font-weight: _font(weight);
+    line-height: 1.65;
+}
+
+//链接
+a {
+  color: _color(accent);
+  text-decoration: none;
+
+  &:hover {
+    border-bottom-color: _color(accent);
+    color: _color(accent);
+    strong {
+      color: inherit;
+    }
+  }
+}
+
+//粗体
+strong, b {
+  color: _color(fg-color);
+  font-weight: _font(weight-bold);
+}
+
+//斜体
+em, i {
+  font-style: italic;
+}
+
+//段落的下间隔
+p {
+  margin: 0 0 _size(element-margin) 0;
+}
+
+//标题样式
+h1, h2, h3, h4, h5, h6 {
+  color: _color(fg-bold);
+  font-family: _font(family-heading);
+  font-weight: _font(weight-heading);
+  line-height: 1.5;
+  margin: 0 0 (_size(element-margin) * 0.5) 0;
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+h1 {
+  font-size: 4em;
+  margin: 0 0 (_size(element-margin) * 0.25 0);
+  line-height: 1.3;
+}
+
+h2 {
+  font-size: 1.75em;
+}
+
+h3 {
+  font-size: 1.25em;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 0.9em;
+}
+
+h6 {
+  font-size: 0.7em;
+}
+
+//下标
+sub {
+  font-size: 0.8em;
+  position: relative;
+  top: 0.5em;
+}
+//上标
+sup {
+  font-size: 0.8em;
+  position: relative;
+  top: -0.5em;
+}
+
+//引用内容
+blockquote {
+  border-left: solid 3px _color(border);
+
+  font-style: italic;
+  margin: 0 0 _size(element-margin) 0;
+  padding: (_size(element-margin)/4) 0 (_size(element-margin)/4) _size(element-margin);
+}
+
+//代码
+code {
+  background: _color(border-bg);
+  border-radius: _size(border-radius);
+  border: solid 1px _color(border);
+  font-family: _font(family-fixed);
+  font-size: 0.9em;
+  margin: 0 0.25em;
+  padding: 0.25em 0.65em;
+  //display: block;   //想让code多行连在一起，code居然是内联元素，下面有更好的处理方式
+}
+
+pre {
+  -webkit-overflow-scrolling: touch;
+  font-family: _font(family-fixed);
+  font-size: 0.9em;
+  margin: 0 0 _size(element-margin) 0;
+
+  code {
+    display: block;
+    line-height: 1.75;
+    padding: 1em 1.5em;
+    overflow-x: auto;
+  }
+}
+
+hr {
+  border: 0;
+  border-bottom: solid 1px _color(border);
+  margin: _size(element-margin) 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.align-right {
+  text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

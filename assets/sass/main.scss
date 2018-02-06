@@ -1,17 +1,21 @@
-//基础导入
-@import 'base/reset.scss';  //重置浏览器默认样式
-//变量导入
-@import 'libs/vars.scss';
+//基础
+@import 'base/reset.scss';   //重置浏览器默认样式
+@import 'base/util.scss';    //一些工具
+@import 'base/vars.scss';    //一些变量，依赖util.scss
 
-//布局导入
+
+//布局
+@import "layout/default";
 @import 'layout/header.scss';
 
-//组件导入
+//组件
 @import 'components/button.scss';
 @import 'components/list.scss';
 @import 'components/box.scss';
 @import 'components/image.scss';
 @import 'components/section.scss';
 @import 'components/table.scss';
+
+
 
 
