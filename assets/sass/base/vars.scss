@@ -1,0 +1,73 @@
+
+//杂项
+$misc: (
+
+);
+
+//各种时间
+$duration : (
+        nav:                0.5s,
+        transition:         0.2s
+);
+
+//宽、高、圆角半径之类
+$size: (
+        border-radius:		0.375em,
+        element-height:		2.75em,
+        element-margin:		2em,
+        sidebar-width:		26em,
+        sidebar-width-alt:	24em,
+        gutter:				3em
+);
+
+//字体种类、字体粗细
+$font: (
+        family:				('Open Sans', sans-serif),
+        family-heading:		('Roboto Slab', serif),
+        family-fixed:		('Courier New', monospace),
+        weight:				400,
+        weight-bold:		600,
+        weight-heading:		700,
+        weight-heading-alt:	400,
+        kerning-heading:	0.075em
+);
+
+//各种颜色
+$color: (
+        //背景
+        bg:                 #ffffff,
+        bg-alt:             #f5f6f7,
+        //前景
+        fg:                 #7f888f,
+        fg-bold:            #3d4449,
+        fg-light:           #9fa3a6,
+        //边缘
+        border:             rgba(210,215,217,0.75),
+        border-bg:           transparentize(#e6ebed, 0.75),
+        //主色调，强调
+        accent:             #f56a6a
+);
+
+@function _misc($keys...) {
+  @return val($misc, $keys...);
+}
+
+@function _duration($keys...) {
+  @return val($duration, $keys...);
+}
+
+@function _size($keys...) {
+  @return val($size, $keys...);
+}
+
+@function _font($keys...) {
+  @return val($font, $keys...);
+}
+
+@function _color($keys...) {
+  @return val($color, $keys...);
+}
+
+
+
+
