@@ -2,11 +2,14 @@
 @import 'base/reset.scss';   //重置浏览器默认样式
 @import 'base/util.scss';    //一些工具
 @import 'base/vars.scss';    //一些变量，依赖util.scss
+@import 'font-awesome.min.css';
 
 
 //布局
-@import "layout/default";
+@import "layout/main.scss";
+@import "layout/default.scss";
 @import 'layout/header.scss';
+@import "layout/banner.scss";
 
 //组件
 @import 'components/button.scss';
