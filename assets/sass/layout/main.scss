@@ -1,12 +1,13 @@
 #main {
-  flex-grow: 1;
-  flex-shrink: 1;
+  //flex-grow: 1;
+  //flex-shrink: 1;
   width: 100%;
 
   > .inner {
     padding: 0 4em;
     margin: 0 auto;
     max-width: 110em;
+    min-width: 50em;
 
     > section {
       padding: 4em 0;

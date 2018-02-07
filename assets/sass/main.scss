@@ -2,7 +2,6 @@
 @import 'base/reset.scss';   //重置浏览器默认样式
 @import 'base/util.scss';    //一些工具
 @import 'base/vars.scss';    //一些变量，依赖util.scss
-@import 'font-awesome.min.css';
 
 
 //布局
@@ -19,6 +18,7 @@
 @import 'components/section.scss';
 @import 'components/table.scss';
 @import "components/features.scss";
+@import "components/posts.scss";
 
 
 

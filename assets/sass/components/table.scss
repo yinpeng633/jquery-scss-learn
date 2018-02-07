@@ -1,0 +1,41 @@
+
+.table-wrapper {
+  -webkit-overflow-scrolling: touch;
+  overflow-x: auto;
+}
+
+table {
+  margin: 0 0 _size(element-margin) 0;
+  width: 50%;
+
+  thead {
+    border-bottom: solid 2px _color(border);
+  }
+
+  tfoot {
+    border-top: solid 2px _color(border);
+  }
+
+  tbody {
+    tr {
+      border: solid 1px _color(border);
+      border-left: 0;
+      border-right: 0;
+
+      &:nth-child(2n+1) {
+        background-color: _color(border-bg);
+      }
+    }
+  }
+
+  th {
+    color: _color(fg-bold);
+    font-size: 0.9em;
+    font-weight: _font(weight-bold);
+    padding: 0 0.75em 0.75em 0.75em;
+    text-align: left;
+  }
+
+
+}
+

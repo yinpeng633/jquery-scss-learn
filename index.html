@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <link rel="stylesheet" href="assets/css/main.css">
+    <script defer src="assets/js/fontawesome-all.js"></script>
     <title>jquery and sass练习</title>
 </head>
 <body>
@@ -13,11 +14,11 @@
             <header id="header">
                 <a href="#" class="logo"><strong>hi, </strong>这是logo</a>
                 <ul class="icons">
-                    <li><a href="#"><span>twitter</span></a></li>
-                    <li><a href="#"><span>facebook</span></a></li>
-                    <li><a href="#"><span>snapchat</span></a></li>
-                    <li><a href="#"><span>instagram</span></a></li>
-                    <li><a href="#"><span>medium</span></a></li>
+                    <li><a href="#"><span class="fas fa-window-close"></span></a></li>
+                    <li><a href="#"><span class="fas fa-plus-square"></span></a></li>
+                    <li><a href="#"><span class="fas fa-user"></span></a></li>
+                    <li><a href="#"><span class="fas fa-user"></span></a></li>
+                    <li><a href="#"><span class="fas fa-user"></span></a></li>
                 </ul>
             </header>
 
@@ -32,7 +33,7 @@
                         Ut magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas. Pellentesque sapien ac
                         quam. Lorem ipsum dolor sit nullam.</p>
                     <ul>
-                        <li><a href="#">learn more</a></li>
+                        <li><a class="button disabled" href="#">learn more</a></li>
                     </ul>
                 </div>
                 <span class="image object">
@@ -48,40 +49,155 @@
 
                 <div class="features">
                     <article>
-                        <span class="icon fa-diamond">
+                        <span class="fas fa-user fa-5x">
                         </span>
                         <div class="content">
                             <h3>Portitor ullamcorper</h3>
-                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
                         </div>
                     </article>
 
                     <article>
-                        <span class="icon fa-paper-plane">
+                        <span class="fas fa-folder fa-5x">
                         </span>
                         <div class="content">
                             <h3>Portitor ullamcorper</h3>
-                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
                         </div>
                     </article>
 
                     <article>
-                        <span class="icon fa-rocket">
+                        <span class="fas fa-paper-plane fa-5x">
                         </span>
                         <div class="content">
                             <h3>Portitor ullamcorper</h3>
-                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
                         </div>
                     </article>
 
                     <article>
-                        <span class="icon fa-signal">
+                        <span class="fas fa-play-circle fa-5x">
                         </span>
                         <div class="content">
                             <h3>Portitor ullamcorper</h3>
-                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                            <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam
+                                facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
                         </div>
                     </article>
+                </div>
+            </section>
+
+
+            <section>
+                <header class="major">
+                    <h2>Ipsum sed dolor</h2>
+                </header>
+
+                <div class="posts">
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                    <article>
+                        <a href="#" class="image"><img src="images/pic01.jpg" alt=""/></a>
+                        <h3>Interdum aenean</h3>
+                        <p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin aliquam facilisis
+                            ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
+                        <ul class="actions">
+                            <li><a href="#" class="button">More</a></li>
+                        </ul>
+                    </article>
+                </div>
+            </section>
+
+            <section>
+                <header class="major">
+                    <h2>表格测试</h2>
+                </header>
+
+                <div class="table-wrapper">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>名字</th>
+                            <th>描述</th>
+                            <th>价格</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <th>内容名字1</th>
+                            <th>内容描述1</th>
+                            <th>内容价格1</th>
+                        </tr>
+                        <tr>
+                            <th>内容名字2</th>
+                            <th>内容描述2</th>
+                            <th>内容价格2</th>
+                        </tr>
+                        <tr>
+                            <th>内容名字3</th>
+                            <th>内容描述3</th>
+                            <th>内容价格3</th>
+                        </tr>
+                        <tr>
+                            <th>内容名字4</th>
+                            <th>内容描述4</th>
+                            <th>内容价格4</th>
+                        </tr>
+                        </tbody>
+                        <tfoot>
+                        <tr>
+                            <th>脚名字</th>
+                            <th>脚描述</th>
+                            <th>脚价格</th>
+                        </tr>
+                        </tfoot>
+                    </table>
                 </div>
             </section>
 
